@@ -1,0 +1,21 @@
+package casting;
+import java.util.Scanner;
+
+public class typecasting {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a;
+		Scanner in = new Scanner(System.in);
+		a=in.nextInt();
+		long b=a;
+		float c=b;
+		System.out.println("Before type casting:" +a);
+		System.out.println("After type casting:" +b);
+		System.out.println("After type casting:" +c);
+	}
+
+
+	}
+
+
