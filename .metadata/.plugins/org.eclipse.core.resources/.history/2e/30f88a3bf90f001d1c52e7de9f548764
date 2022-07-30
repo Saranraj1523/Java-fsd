@@ -1,0 +1,28 @@
+package throwdemo;
+
+public class ClassA {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a=20,b=0,c;
+        try
+        {
+            if(b==0)        
+                throw new ArithmeticException("Cannot divide by zero.");
+            else
+            {
+                c = a / b;
+                System.out.print("\n\tThe result is : " + c);
+            }
+        }
+        catch(ArithmeticException e)
+        {
+            System.out.print("Error handled: " + e.getMessage());
+        }
+
+        System.out.print("\n\tEnd of program.");
+
+		
+		}
+
+	}
+}

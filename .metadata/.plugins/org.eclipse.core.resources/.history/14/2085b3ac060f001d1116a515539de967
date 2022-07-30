@@ -1,0 +1,23 @@
+package Exception;
+
+public class throwsdemo {
+	void display()throws ArithmeticException{
+		int a=20,b=0,c;
+		c=a/b;
+		System.out.println(c);
+		}
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		throwsdemo in=new throwsdemo();
+		try{
+			in.display();
+		}
+		catch(ArithmeticException ae){
+			System.out.println("ArithmeticException occur"+ae.getMessage());
+		}
+		System.out.println("-----normal flow----");
+	}
+
+}

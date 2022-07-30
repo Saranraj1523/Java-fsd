@@ -1,0 +1,28 @@
+package Exception;
+
+public class custom {
+	static validate(int age) throws InvalidateException{
+		if(age<18){
+		    throw new InvalidateException("you are not eligiable");
+		    }else{
+		    	System.out.println("welcome to vote");
+		    }
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try{
+			validate(17);
+		}
+		catch(Exception ae){
+			System.out.println("Exception handled"+ae.getMessage());
+		}
+		System.out.println("end of program");
+		}
+	}
+	class InvalidateException extends Exception{
+		InvalidateException(String s){
+			super s;
+		}
+		
+	}

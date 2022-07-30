@@ -1,0 +1,20 @@
+package javaexception;
+import java.util.Scanner;
+import java.io.IOException;
+
+public class Exception {
+
+	void numcheck(int a) throws IOException,ClassNotFoundException{
+		if(a==1){
+			throw new IOException("IOException occurrs");
+		}else{
+			throw new ClassNotFoundException("ClassNotFoundException occurrs");
+		}
+		public static void main(String[] args){
+			Exception in=new Exception();
+			
+		}
+		
+	}
+		
+	}

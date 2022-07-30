@@ -1,0 +1,10 @@
+package accessmodifier.Z2;
+
+public class classE {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

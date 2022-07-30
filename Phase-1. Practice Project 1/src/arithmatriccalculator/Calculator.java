@@ -5,7 +5,7 @@ public class Calculator {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		 char operator;
-		    Double a,b,result;
+		    double a,b,result;
 
 		    Scanner input = new Scanner(System.in);
 
@@ -19,7 +19,7 @@ public class Calculator {
 		    b = input.nextDouble();
 
 		    switch (operator) 
-		    {
+	 	    {
 
 		      case '+':
 		        result = a+b;
@@ -41,6 +41,7 @@ public class Calculator {
 		        System.out.println(a+ " / " +b+ " = " + result);
 		        break;
 
+		  
 		      default:
 		        System.out.println("Invalid operator!");
 		        break;
