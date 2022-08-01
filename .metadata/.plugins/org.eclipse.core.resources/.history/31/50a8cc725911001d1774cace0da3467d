@@ -1,0 +1,24 @@
+package Collections;
+import java.util.*;
+
+public class mainclass {
+	
+
+
+	
+		public static void main(String[] args) {
+			Set ob = new HashSet();
+			ob.add("Bernadine");
+			ob.add("Elizabeth");
+			ob.add("Gene");
+			ob.add("Elizabeth");
+			ob.add("Clara");
+			System.out.println(ob);
+			ob sortedSet = new TreeSet(ob);
+			System.out.println(sortedSet);
+		}
+
+	}
+
+
+
