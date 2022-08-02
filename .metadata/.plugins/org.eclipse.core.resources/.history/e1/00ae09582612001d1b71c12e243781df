@@ -1,0 +1,10 @@
+package smallestnumber;
+
+public class unsortedlist {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
