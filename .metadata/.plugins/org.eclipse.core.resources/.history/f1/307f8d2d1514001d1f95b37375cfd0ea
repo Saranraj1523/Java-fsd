@@ -6,7 +6,12 @@ import java.util.Scanner;
 
 public class BugFix {
 
-			public static void main(String[] args) {
+
+	
+
+	
+
+	    public static void main(String[] args) {
 	        /*System.out.println("Hello World!");*/
 	        System.out.println("\n**************\n");
 	        System.out.println("\tWelcome to TheDesk \n");
@@ -106,11 +111,14 @@ public class BugFix {
 	        }
 	        System.out.println("is" + num + " presents in the arrays: " + test);
 	        
-	         }
+	        
+	    }
 	    private static void sortExpenses(ArrayList<Integer> arrayList) {
 	        int arrlength =  arrayList.size();
 	        Collections.sort(arrayList);  
-	        System.out.println(arrayList);   
+	        System.out.println(arrayList);
+	        
+	      
 	    }
 	}
 
