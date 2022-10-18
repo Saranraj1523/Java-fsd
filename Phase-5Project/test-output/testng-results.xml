@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-18T05:49:40Z" name="Suite" finished-at="2022-10-18T05:50:35Z" duration-ms="55006">
+    <groups>
+    </groups>
+    <test started-at="2022-10-18T05:49:40Z" name="Test" finished-at="2022-10-18T05:50:35Z" duration-ms="55006">
+      <class name="ECommerce.Testing">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:ECommerce.Testing@598bd2ba]" started-at="2022-10-18T05:49:40Z" name="beforeMethod" finished-at="2022-10-18T05:49:41Z" duration-ms="1385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="flipkart()[pri:0, instance:ECommerce.Testing@598bd2ba]" started-at="2022-10-18T05:49:41Z" name="flipkart" finished-at="2022-10-18T05:50:35Z" duration-ms="53596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flipkart -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:ECommerce.Testing@598bd2ba]" started-at="2022-10-18T05:50:35Z" name="afterMethod" finished-at="2022-10-18T05:50:35Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- ECommerce.Testing -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
